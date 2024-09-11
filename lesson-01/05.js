@@ -5,6 +5,7 @@ let rule =
 
 const countChanceToProgrammer = (str) => {
   const len = str.length;
+
   switch (true) {
     case len > 25:
       console.log("У меня 100 пудов все получится");
@@ -16,7 +17,7 @@ const countChanceToProgrammer = (str) => {
       console.log("50 на 50");
       break;
     default:
-      console.log("Твой шанс еще где-то есть");
+      break;
   }
 };
 countChanceToProgrammer(rule);
